@@ -1,0 +1,42 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+}
+
+.header{
+      background-color: antiquewhite;
+      height: 100vh;
+}
+.header-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 100px;
+}
+.left-site p{
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.left-site h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 50px;
+}
+.left-site h1 span{
+      color:darkorange
+}
+.left-site h3{
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 10px;
+}
+.left-site p{
+      padding-top: 10px;
+}
+.left-site button{
+      background-color: darkorange;
+      border: none;
+      padding: 15px 50px;
+      margin-top: 30px;
+      border-radius:5px;
+      color: white;
+}
