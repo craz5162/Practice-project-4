@@ -126,7 +126,7 @@
 
 .phone{
       margin: 40px;
-      height: 530px;
+      height: 540px;
       box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
       border-radius: 10px;
 }
@@ -146,4 +146,55 @@
       border-radius:5px;
       color: white;
       margin-top: 10px;
+}
+
+.login__container h1{
+      text-align: center;
+      font-size: 50px;
+      font-family:  'Arial Narrow Bold', sans-serif;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+.login__container h1 span{
+      color: darkorange;
+}
+.login__box{
+      background-color: antiquewhite;
+      display: flex;
+      padding: 50px;
+      align-items: center;
+      justify-content: center;
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-bottom: 50px;
+      border-radius: 8px;
+}
+.login__box input{
+      width: 20%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+}
+.login__box button{
+      background-color: darkorange;
+      border: none;
+      padding: 10px 30px;
+      border-radius:5px;
+      color: white;
+      margin-left: 5px;
+}
+.footer__container{
+      background-color: black;
+      padding: 40px;
+}
+.footer__container h1{
+      color: darkorange;
+      text-align: center;
+      font-family:  'Arial Narrow Bold', sans-serif;
+}
+.footer__container p{
+      color: white;
+      font-family:  'Arial Narrow Bold', sans-serif;
+      text-align: center;
+      margin-top: 20px;
 }
